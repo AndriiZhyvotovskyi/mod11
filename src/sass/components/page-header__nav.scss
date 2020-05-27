@@ -1,0 +1,11 @@
+.page-header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 140px;
+    &--item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

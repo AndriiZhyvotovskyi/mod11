@@ -1,0 +1,23 @@
+@import 'font-face';
+@import 'helpers/variables';
+@import 'helpers/placeholders.scss';
+@import 'normalize';
+@import 'base';
+
+/* components */
+
+@import 'components/container';
+@import 'components/page-header';
+@import 'components/header-navigation';
+@import 'components/page-header__nav';
+@import 'components/site-logo';
+@import 'components/header-form';
+@import 'components/section';
+@import 'components/socials';
+@import 'components/input.scss';
+
+/* section */
+
+@import 'section/services';
+@import 'section/team';
+@import 'section/footer';

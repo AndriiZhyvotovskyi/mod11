@@ -1,0 +1,54 @@
+.page-header {
+    background: linear-gradient(to top, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9)), url(../images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1000px;
+    color: $color-first;
+    padding-top: 38px;
+    text-align: center;
+    &__button {
+        color: $color-first;
+        font-size: 0.875rem;
+        text-transform: uppercase;
+    }
+    &__title {
+        font-size: 9.375rem;
+        line-height: 8.75rem;
+        text-transform: uppercase;
+        padding: 0 180px;
+        letter-spacing: -.2rem;
+        margin-bottom: 120px;
+        font-weight: 700;
+    }
+    &__title--br {
+        font-family: $font-thirrd;
+        display: block;
+        line-height: 5.4rem;
+        font-size: 4.5rem;
+        text-transform: capitalize;
+        margin-bottom: 40px;
+    }
+    &__button {
+        @extend %link,
+        %button;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+        border: 4px solid $color-first;
+        transition: all .3s linear;
+    }
+    &__button:hover {
+        background-color: rgb(255, 255, 255);
+        color: $color-fourth;
+    }
+    @media (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .page-header {
+            background: linear-gradient(to top, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9)), url(../img/background@2x.jpg);
+        }
+    }
+}

@@ -1,0 +1,34 @@
+.header-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__link {
+        @extend %link;
+        color: $color-first;
+        font-size: 0.875rem;
+        text-transform: uppercase;
+        position: relative;
+        transition: color .5s linear;
+    }
+    &__link:hover {
+        color: $color-six;
+    }
+    &__link::after {
+        display: block;
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 2px;
+        background-color: $color-six;
+        bottom: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: width .3s linear;
+    }
+    &__list+&__list {
+        margin-left: 26px;
+    }
+    &__link:hover::after {
+        width: 100%;
+    }
+}

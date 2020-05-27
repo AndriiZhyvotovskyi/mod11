@@ -1,0 +1,27 @@
+.services {
+    padding-top: 42px;
+    &__item {
+        width: 383px;
+        display: flex;
+        margin-bottom: 96px;
+    }
+    &__image {
+        padding: 0 20px;
+    }
+    &__image-icon {
+        fill: $color-five;
+        width: 32px;
+        height: 32px;
+    }
+    &__title {
+        font-size: .875rem;
+        color: var(--color-second);
+        text-transform: uppercase;
+        margin-bottom: 16px;
+    }
+    &__description {
+        font-family: var(--font-second);
+        font-size: .9375rem;
+        color: var(--color-third);
+    }
+}

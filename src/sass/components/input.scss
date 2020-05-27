@@ -1,0 +1,52 @@
+input {
+    width: 230px;
+    height: 40px;
+    border: 1px solid rgb(231, 231, 231);
+    padding-left: 10px;
+    &::placeholder {
+        text-transform: capitalize;
+        color: rgb(204, 204, 204);
+        font-size: 15px;
+        font-weight: 300;
+        font-style: italic;
+        width: 150px;
+    }
+    &::placeholder {
+        text-transform: capitalize;
+        color: rgb(204, 204, 204);
+        font-size: 15px;
+        font-weight: 300;
+        font-style: italic;
+        width: 150px;
+    }
+    &::placeholder {
+        text-transform: capitalize;
+        color: rgb(204, 204, 204);
+        font-size: 15px;
+        font-weight: 300;
+        font-style: italic;
+        width: 150px;
+    }
+    &::placeholder {
+        text-transform: capitalize;
+        color: rgb(204, 204, 204);
+        font-size: 15px;
+        font-weight: 300;
+        font-style: italic;
+        width: 150px;
+    }
+    &::placeholder {
+        text-transform: capitalize;
+        color: rgb(204, 204, 204);
+        font-size: 15px;
+        font-weight: 300;
+        font-style: italic;
+        width: 150px;
+    }
+    &[type='email']:valid {
+        outline-color: green;
+    }
+    &[type='email']:invalid {
+        outline-color: red;
+    }
+}

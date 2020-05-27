@@ -1,0 +1,20 @@
+.header-form {
+    margin-left: 52px;
+    &__button {
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+    &__button+&__button {
+        margin-left: 42px;
+    }
+    &__icon {
+        fill: $color-first;
+        width: 20px;
+        height: 20px;
+        transition: fill .3s linear;
+    }
+    &__icon:hover {
+        fill: $color-six;
+    }
+}

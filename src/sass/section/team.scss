@@ -1,0 +1,44 @@
+.team {
+    padding-bottom: 84px;
+    text-align: center;
+    &__member {
+        background-color: aqua;
+        position: relative;
+    }
+    &__member-overlov {
+        transition: transform .3s linear;
+    }
+    &__member-image {
+        margin-bottom: 30px;
+    }
+    &__item:hover &__member-overlov {
+        transform: translate(-10px, -10px);
+    }
+    &__item:hover &__member-wrapper {
+        opacity: 1;
+    }
+    &__member-wrapper {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: linear-gradient(to top, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9));
+        opacity: 0;
+        transition: opacity .3s linear;
+    }
+    &__title {
+        text-transform: uppercase;
+        font-size: .875rem;
+        margin-bottom: 14px;
+        color: $color-second;
+    }
+    &__direction {
+        color: $color-third;
+        font-size: 0.9375rem;
+        font-family: $font-second;
+        text-transform: capitalize;
+        font-style: italic;
+    }
+}
