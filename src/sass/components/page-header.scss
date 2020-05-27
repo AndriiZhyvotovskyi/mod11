@@ -12,6 +12,17 @@
         font-size: 0.875rem;
         text-transform: uppercase;
     }
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 140px;
+        &--item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
     &__title {
         font-size: 9.375rem;
         line-height: 8.75rem;
