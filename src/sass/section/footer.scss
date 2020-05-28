@@ -12,6 +12,10 @@
     @include position(flex, space-between, center);
 }
 
+.footer__adress {
+    font-size: 0.875rem;
+}
+
 .footer__form {
     display: flex;
 }
@@ -20,7 +24,7 @@
     @extend %button;
     background-color: rgba(149, 225, 211, .7);
     border: none;
-    color: var(--color-first);
+    color: $color-first;
     font-weight: 700;
     text-transform: uppercase;
     transition: background-color .5s linear;
