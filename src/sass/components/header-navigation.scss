@@ -1,8 +1,5 @@
 .header-navigation {
-    // display: flex;
-    // justify-content: space-between;
-    // align-items: center;
-    @include position(flex, space-between, center);
+    display: flex;
 }
 
 .header-navigation__link {
@@ -23,7 +20,7 @@
         content: '';
         position: absolute;
         width: 0;
-        height: 2px;
+        height: 3px;
         background-color: $color-six;
         bottom: -10px;
         left: 50%;
@@ -34,6 +31,6 @@
 
 .header-navigation {
     &__list+&__list {
-        margin-left: 26px;
+        margin-left: 55px;
     }
 }
