@@ -7,16 +7,15 @@
 /* components */
 
 @import 'components/container';
-@import 'components/page-header';
-@import 'components/header-navigation';
-@import 'components/site-logo';
-@import 'components/header-form';
+@import 'components/navigation.scss';
+@import 'components/logotype.scss';
+@import 'components/menu.scss';
 @import 'components/section';
 @import 'components/socials';
 @import 'components/input.scss';
 
 /* section */
-
+@import 'section/page-header.scss';
 @import 'section/services';
 @import 'section/team';
 @import 'section/footer';

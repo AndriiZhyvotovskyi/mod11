@@ -1,0 +1,4 @@
+.navigation {
+  @include position(flex, space-between, center);
+      margin-bottom: 140px;
+}

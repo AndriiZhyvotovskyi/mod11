@@ -16,11 +16,11 @@
     font-size: 0.875rem;
 }
 
-.footer__form {
+.subscribe__form {
     display: flex;
 }
 
-.footer__button {
+.subscribe__button {
     @extend %button;
     background-color: rgba(149, 225, 211, .7);
     border: none;
@@ -30,7 +30,7 @@
     transition: background-color .5s linear;
 }
 
-.footer__button:hover {
+.subscribe__button:hover {
     background-color: rgb(103, 219, 198);
 }
 

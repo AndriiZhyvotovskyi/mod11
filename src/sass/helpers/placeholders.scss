@@ -3,8 +3,16 @@
 }
 
 %button {
-    width: 160px;
+    width: 150px;
     height: 40px;
     cursor: pointer;
-    outline: none;
+    outline: none;    
+    text-transform: uppercase;
 }
+
+
+%list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }

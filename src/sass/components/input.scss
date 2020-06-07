@@ -11,38 +11,7 @@ input {
         font-style: italic;
         width: 150px;
     }
-    &::placeholder {
-        text-transform: capitalize;
-        color: rgb(204, 204, 204);
-        font-size: 15px;
-        font-weight: 300;
-        font-style: italic;
-        width: 150px;
-    }
-    &::placeholder {
-        text-transform: capitalize;
-        color: rgb(204, 204, 204);
-        font-size: 15px;
-        font-weight: 300;
-        font-style: italic;
-        width: 150px;
-    }
-    &::placeholder {
-        text-transform: capitalize;
-        color: rgb(204, 204, 204);
-        font-size: 15px;
-        font-weight: 300;
-        font-style: italic;
-        width: 150px;
-    }
-    &::placeholder {
-        text-transform: capitalize;
-        color: rgb(204, 204, 204);
-        font-size: 15px;
-        font-weight: 300;
-        font-style: italic;
-        width: 150px;
-    }
+    
     &[type='email']:valid {
         outline-color: green;
     }

@@ -1,0 +1,59 @@
+.menu {
+  @include position(flex, space-between, center);
+}
+.menu__list+.menu__list {
+  margin-left: 26px;
+}
+
+.menu__link {
+  color: $color-first;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  @extend %link;
+}
+
+.menu__link {
+  position: relative;
+  transition: color .5s linear;
+}
+
+.menu__link:hover {
+  color: $color-six;
+}
+
+.menu__link::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: $color-six;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: width .3s linear;
+}
+
+.menu__link:hover::after {
+  width: 100%;
+}
+.menu__button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menu__button--indent {
+  margin-left: 52px;
+}
+
+.menu__button-icon {
+  fill: $color-first;
+  width: 20px;
+  height: 20px;
+  transition: fill .3s linear;
+}
+
+.menu__button-icon:hover {
+  fill: $color-six;
+}
